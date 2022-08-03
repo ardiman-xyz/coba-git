@@ -17,3 +17,6 @@ GIT CLONE
 5. git checkout {branc-name} => untuk pindah branch di local;
 
 GIT FETCH => tidak akan merubah isi local git kita, hanya melihat perubahan remote repositori;
+1. git diff master..origin/master => untuk membadingkan git server dan local tanpa mengubah git local kita;
+
+GIT FULL => untuk mengambil perubahan yang berada di server kemudian kita akan simpan ke local project git kita;
