@@ -1,0 +1,15 @@
+
+GIT REMOTE -> SSH
+
+1. git remote add {nama remote} => digunakan untuk menambahkan remote baru didalam repositori lokal;
+2. git branch => untuk memeriksa branh apa saja yang ada di repositori local git;
+3. git remote get-url {nama remote} => untuk mengetahui url remote kita;
+4. git push origin master => untuk menambahkan atau mengupdate project kita ke server;
+5. git push origin master:{nama branch baru} => untuk menambahkan branch baru di server;
+6. git push --delete origin {nama branch di server} => untuk menghapus branch di server
+
+GIT CLONE
+
+1. git clone => untuk mengcopy clone project yang ada, dan otomatis branch dan remote origin sama dengan master.
+2. git remote => otomatis origin sama dengan masternya
+3. git branch -r => untuk melihat list branch di prject yang sudah diclone
